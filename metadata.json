@@ -1,0 +1,7 @@
+{
+  "name": "Gemini Live Analyst",
+  "description": "Real-time speech analysis, transcription, and diarization using Gemini 2.5 Flash.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
