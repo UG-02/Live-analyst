@@ -69,6 +69,7 @@ export const SalesAssistCard: React.FC<SalesAssistCardProps> = ({ suggestions, i
       )}
 
       {/* Product Recommendations */}
+      {/*
       <div className="bg-gradient-to-br from-emerald-900/30 to-slate-900 border border-emerald-500/30 rounded-xl p-4 shadow-lg">
         <div className="flex items-center gap-2 text-emerald-400 font-semibold mb-3 border-b border-emerald-500/20 pb-2">
           <ShoppingBag className="w-4 h-4" />
@@ -85,7 +86,7 @@ export const SalesAssistCard: React.FC<SalesAssistCardProps> = ({ suggestions, i
             <span className="text-xs text-slate-500 italic">Listening for context...</span>
           )}
         </div>
-      </div>
+      </div>*/}
 
     </div>
   );

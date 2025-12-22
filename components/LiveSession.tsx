@@ -77,11 +77,11 @@ const logTurnTool: FunctionDeclaration = {
         items: { type: Type.STRING },
         description: 'If the customer raises an objection, provide 1-2 counter-points or empathy statements. Otherwise empty.'
       },
-      productRecommendations: {
+      /*productRecommendations: {
         type: Type.ARRAY,
         items: { type: Type.STRING },
         description: 'List of relevant products or services based on the conversation context.'
-      }
+      }*/
     },
     required: ['speaker', 'text']
   }
